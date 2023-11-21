@@ -1,0 +1,75 @@
+/*Autor: Lara González Gerardo Emiliano
+  Fecha: 17-octubre-2023*/
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #3a7ca8;
+}
+ul, li {
+    font: optional;;
+    text-align: center;
+    font-size: 15px;
+}
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 5px;
+    margin: 40px;
+}
+
+select {
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    background-color: #00ff00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #02c902;
+}
+
+p {
+    font-weight: bold;
+}
+.estilo_conversior, .estilo_divisas, .estilo_calculadora {
+    background-color: #3ebd03; /* Cambia el color de fondo según tus preferencias */
+    color: #fff;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.estilo_conversior:hover, .estilo_divisas:hover, .estilo_calculadora:hover {
+    background-color: #FF3333;
+}
+
+.fondo{
+    background-image: url('imgs/pizarra.gif');
+    background-size: cover;
+}
+.divisas {
+    background-image: url('imgs/divisas.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    min-height: 50vh; /* Reducir la altura del elemento */
+    position: absolute;
+    width: 70%; /* Reducir el ancho del elemento */
+    bottom: 0; /* Cambiar la posición para que esté pegado al borde inferior */
+}
+
+.calculadora{
+    background-image: url('imgs/fondo.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
